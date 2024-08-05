@@ -5,7 +5,6 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Skeleton } from "@/components/ui/skeleton";
 import { ExternalLink } from 'lucide-react';
-import { ExternalLink } from 'lucide-react';
 
 const fetchTopStories = async () => {
   const response = await fetch('https://hn.algolia.com/api/v1/search?tags=front_page&hitsPerPage=100');
